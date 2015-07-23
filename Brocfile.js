@@ -17,6 +17,6 @@ var vendor = funnel('bower_components', {
     files: ['handlebars/handlebars.js', 'jquery/dist/jquery.min.js']
 });
 
-var compiledCss = sass (includePaths, 'app.scss', 'app.css');
+var compiledCss = sass (includePaths, 'accordion.scss', 'accordion.css');
 
 module.exports = merge([publicWithReload, 'assets/js', compiledCss, vendor]);

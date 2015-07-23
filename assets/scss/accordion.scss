@@ -1,0 +1,48 @@
+@import 'reset';
+$fa-font-path:        "//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts";
+
+@import 'font-awesome';
+@import 'bourbon';
+@import 'neat';
+
+$green: #8FAA36;
+$gray: #46484C;
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.accordion {
+	padding: 2em;
+}
+.header {
+	font-family: sans-serif;
+	padding: .5em;
+	background-color: $gray;
+	color: white;
+	border: 1px solid black;
+}
+.header:hover {
+	padding: .5em;
+	background-color: $green;
+	color: $gray;
+	border: 1px solid black;
+}
+.fa {
+	padding-right: .5em;
+}
+.links li {
+	font-family: sans-serif;
+	padding: .5em;
+	background-color: $gray;
+	color: white;
+	border: 1px solid black;
+}
+.links li:hover {
+	padding: .5em;
+	background-color: $green;
+	color: $gray;
+	border: 1px solid black;
+}
