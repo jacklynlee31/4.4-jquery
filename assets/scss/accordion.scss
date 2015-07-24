@@ -19,23 +19,36 @@ html {
 }
 .header {
 	font-family: sans-serif;
-	padding: .5em;
+	padding: .1em;
+	padding-left: .8em;
 	background-color: $gray;
 	color: white;
 	border: 1px solid black;
+	line-height: 3em;
+	width:10em;
 }
 .header:hover {
-	padding: .5em;
+	padding: .1em;
+	padding-left: .8em;
 	background-color: $green;
 	color: $gray;
 	border: 1px solid black;
 }
+.selected {
+	background-color: $green;
+	color: $gray;
+}
 .fa {
 	padding-right: .5em;
 }
+.links {
+	display: none;
+}
 .links li {
 	font-family: sans-serif;
+	width: 10em;
 	padding: .5em;
+	padding-left: .8em;
 	background-color: $gray;
 	color: white;
 	border: 1px solid black;
