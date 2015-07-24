@@ -1,0 +1,48 @@
+@import 'reset';
+$fa-font-path:        "//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts";
+
+@import 'font-awesome';
+@import 'bourbon';
+@import 'neat';
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+* {
+	text-align: center;
+}
+.keyboard {
+	background-color: #EAEAEA;
+	margin: auto;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	width: 40em;
+}
+textarea {
+	resize: none;
+	overflow: auto;
+	border: none;
+	width: 40em;
+}
+.row-1 {
+	padding-top: 1em;
+}
+.row-1 , .row-2 , .row-3 , .row-4, .space{
+	padding-bottom: .5em;
+}
+.space button {
+	width: 30em;
+	height: 1.7em;
+}
+button {
+	padding-left: .5em;
+	padding-right: .5em;
+	color: black;
+	background-color: white;
+	font-size: 1em;
+	border: 1px solid white;
+	border-radius: .2em;
+}
