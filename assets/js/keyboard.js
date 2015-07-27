@@ -1,10 +1,20 @@
-// var header = $('.header');
-// var list = $('.links');
+var key = $('.key');
+var caps = $('.caps-toggle');
+var shift = $('.shift-toggle');
+var tab = $('.tab-key');
+var del = $('.delete-key');
+var ret = $('.return-key');
+var area = $('textarea');
+var space = $('.space-key');
 
-// header.on('click', function() {
-// 	var target = $(this).next();
-// 	target.find('.links').slideDown();
-// 	target.siblings().find('.links').slideUp();
-// 	$(this).addClass("selected");
-// 	$(this).siblings(header).removeClass("selected");
-// });
+key.on('click',function(){
+	area.append(this.innerHTML);
+});
+
+space.on('click',function(){
+	area.append(this.innerHTML);
+});
+
+tab.on('click',function(){
+	area.append('     ');
+});
